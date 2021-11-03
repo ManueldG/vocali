@@ -5,6 +5,5 @@ def isVowel(letter):
         return False
 
 
-
 x = input("inserisci lettera: ")
 print ("è una vocale" if isVowel(x) else "non è una vocale")
